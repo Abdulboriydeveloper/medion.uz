@@ -1,0 +1,45 @@
+.display {
+  display: flex;
+  flex-direction: column;
+  width: 410px;
+  height: 60px;
+  background: #FFFFFF;
+  border: 1px solid #E9E9E9;
+  border-radius: 10px;
+  margin-bottom: 10%;
+}
+
+.expression {
+  padding: 5px;
+  margin-bottom: 10px;
+  height: 50px;
+}
+
+.input,
+.value {
+  padding: 10px !important;
+  text-align: right;
+  background-color: transparent;
+  color: #BF2619;
+  border: 0px;
+  letter-spacing: 1.5px;
+}
+
+.input {
+  font-size: 25px;
+}
+
+.value {
+  font-size: 15px;
+}
+
+.input::placeholder,
+.value::placeholder {
+  color: white;
+}
+
+.input:focus-visible,
+.value:focus-visible {
+  outline-style: none;
+  outline-width: 0px;
+}
