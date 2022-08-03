@@ -15,11 +15,15 @@
 .textLogoFrame8{
   width: 246.59px;
   height: 65.22px;
-  background-image: url('../../assets/images/лого-Medion2.png');
+  background-image: url('../../assets/images/лого-Medion2.svg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 .col2Frame8 {
+  width: 350px !important;
+  justify-items: center;
+}
+.col2_Frame8{
   width: 350px !important;
   justify-items: center;
 }
@@ -54,8 +58,9 @@
   color: #FFFFFF;
 }
 
-.iconsRow{
+.iconsRowFrame8{
   margin-top: 4% !important;
+  margin-left: -2% !important;
 }
 .iconsFrame8{
   margin-top: 2.29%;
@@ -67,21 +72,21 @@
   margin-left: 10%;
   margin-top: 3%;
 }
-.homeIcon{
+.homeIconFrame8{
   width: 64px;
   height: 64px;
   background-color: #1F2C50;
   margin-right: 89px;
   border-radius: 50%;
 }
-.iconHome{
+.iconHomeFrame8{
   color: #FFFFFF;
   width: 63px;
   height: 60px;
   margin-left: -45%;
   margin-top: -25%;
 }
-.nazadIcon{
+.nazadIconFrame8{
   width: 64px;
   height: 64px;
   background-color: #1F2C50;
@@ -89,14 +94,14 @@
   border-radius: 50%;
   margin-top: -3px;
 }
-.nazadIconLeft{
+.nazadIconLeftFrame8{
   width: 64px;
   height: 64px;
   background: #D8D8D8;
   margin-right: 89px;
   border-radius: 50%;
 }
-.nazadIconRight{
+.nazadIconRightFrame8{
   width: 64px;
   height: 64px;
   background-color: #BF2619;
@@ -104,14 +109,14 @@
   border-radius: 50%;
   margin-top: -3px;
 }
-.iconNazad{
+.iconNazadFrame8{
   color: #FFFFFF;
   width: 240%;
   height: 169%;
   margin-left: -75%;
   margin-top: -45%;
 }
-.domoyText{
+.domoyTextFrame8{
   font-family: 'HelveticaNeueCyr';
   font-style: normal;
   font-weight: 550;
@@ -120,7 +125,7 @@
   color: #1F2C50;
   margin-left: -40%;
 }
-.nazadText{
+.nazadTextFrame8{
   font-family: 'HelveticaNeueCyr';
   font-style: normal;
   font-weight: 550;
@@ -150,42 +155,46 @@
     margin-left: 35%;
     margin-top: 3%;
   }
-  .homeIcon{
+  .homeIconFrame8{
     width: 100px;
     height: 100px;
   }
-  .domoyText {
+  .domoyTextFrame8 {
     font-size: 35px;
     line-height: 65px;
   }
-  .iconHome {
+  .iconHomeFrame8 {
     width: 90px;
     height: 80px;
     margin-left: -15%;
     margin-top: -8%;
   }
-  .nazadIcon{
+  .nazadIconFrame8{
     width: 90px;
     height: 90px;
     margin-top: -5px;
   }
-  .nazadIconLeft {
+  .nazadIconLeftFrame8 {
     width: 90px;
     height: 90px;
   }
-  .nazadIconRight {
+  .nazadIconRightFrame8 {
     width: 90px;
     height: 90px;
   }
-  .iconNazad{
+  .iconNazadFrame8{
     width: 250%;
     height: 180%;
   }
-  .nazadText{
+  .nazadTextFrame8{
     font-size: 35px;
     line-height: 0px;
   }
   .col2Frame8{
+    width: 348px !important;
+    justify-items: center;
+  }
+  .col2_Frame8{
     width: 348px !important;
     justify-items: center;
   }
@@ -202,5 +211,78 @@
 @media all and (display-mode: fullscreen){
   .frame8Page{
     height: 100vh !important;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-height: 1200px) {
+  .frame8Container{
+    margin-top: 10%;
+  }
+  .buttonFrame8 {
+    width: 315px;
+    height: 120px;
+    margin-top: 8px;
+  }
+  .col2Frame8 {
+    width: 257px !important;
+    justify-items: center;
+    margin-left: 13%;
+  }
+  .col2_Frame8 {
+    width: 257px !important;
+    justify-items: center;
+    margin-left: -17%;
+  }
+  .linkPadrobneBtn{
+    width: 190px;
+    margin-top: -3%;
+    height: 57px;
+  }
+  .padrobneBtnFrame8 {
+    width: 155px;
+    height: 33px;
+    border-radius: 18px;
+    font-size: 15px;
+    line-height: 35px;
+  }
+  .iconsRowFrame8{
+    margin-top: 30% !important;
+  }
+  .homeIconFrame8{
+    width: 75px;
+    height: 75px;
+  }
+  .iconHomeFrame8 {
+    width: 65px;
+    height: 65px;
+    margin-left: -22%;
+    margin-top: -10%;
+  }
+  .domoyTextFrame8 {
+    font-size: 26px;
+    margin-left: -60%;
+    line-height: 65px;
+  }
+  .nazadTextFrame8 {
+    font-size: 26px;
+    line-height: 20px;
+  }
+  .nazadIconFrame8 {
+    width: 75px;
+    height: 75px;
+    margin-top: -5px;
+  }
+  .secondIconGroupFrame8{
+    margin-left: 45%;
+    margin-top: 3%;
+  }
+  .nazadIconLeftFrame8{
+    width: 75px;
+    height: 75px;
+    margin-top: -5px;
+  }
+  .nazadIconRightFrame8{
+    width: 75px;
+    height: 75px;
   }
 }

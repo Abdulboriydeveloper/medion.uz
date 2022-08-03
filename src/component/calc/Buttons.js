@@ -1,8 +1,9 @@
 import React from "react";
 import "./styles/Buttons.css";
-// import CALCULATOR_BUTTONS from "./CalculatorButtons";
+import { Link } from "react-router-dom";
+import {ImArrowLeft} from 'react-icons/im';
 
-const Buttons = ({ inputHandler, clearInput, backspace, changePlusMinus, calculateAns }) => {
+const Buttons = ({ inputHandler,backspace }) => {
   document.addEventListener("keydown", function (event) {
     if (event.key === "Enter") {
       event.preventDefault();
@@ -28,7 +29,7 @@ const Buttons = ({ inputHandler, clearInput, backspace, changePlusMinus, calcula
         5
       </button>
       <button className="btn btnFrame11 clr" onClick={backspace}>
-        ⌫  
+        <ImArrowLeft className="bachspaceIcon" />
       </button>
       <button className="btn btnFrame11" onClick={inputHandler}>
         6
@@ -45,9 +46,11 @@ const Buttons = ({ inputHandler, clearInput, backspace, changePlusMinus, calcula
       <button className="btn btnFrame11" onClick={inputHandler}>
         0
       </button>
-      <button className="btn btnFrame11  готовоBtn" >
-        готово
-      </button>
+      <Link className="nav-title-link nav-link nav-link-navbar active active-nav готовоBtnLink" aria-current="page" to="/frame24">
+        <button className="btn btnFrame11  готовоBtn">
+          <p className="готовоBtnText">готово</p>
+        </button>
+      </Link>
     </div>
   );
 };

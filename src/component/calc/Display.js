@@ -1,4 +1,5 @@
-import React from "react";
+import React,{useState,useEffect}  from "react";
+import axios from "axios";
 import "./styles/Display.css";
 
 const Display = ({ input, setInput, answer }) => {
@@ -9,6 +10,23 @@ const Display = ({ input, setInput, answer }) => {
       setInput(e.target.value);
     }
   };
+
+
+  // const [doctor, setDoctor] = useState({
+  //   id: ''
+  // })
+
+  // const changeHandler = (e)=> {
+  //     setDoctor({...doctor, [e.target.name]: e.target.value})
+  // }
+
+
+  // const [prod, setProd] = useState([])
+  // useEffect(async () =>{
+  //     const res = await axios.get('http://localhost:5000/doctor')
+  //     setProd(res.data)
+  //     console.log(prod)
+  // },[])
 
   return (
     <>
@@ -22,8 +40,7 @@ const Display = ({ input, setInput, answer }) => {
               style={{ padding: "29px" }}
               value={input}
               placeholder="0"
-              maxLength={16}
-              // disabled
+              maxLength={7}
               onChange={onChangeTagInput}
               autoComplete="off"
             />
@@ -36,7 +53,7 @@ const Display = ({ input, setInput, answer }) => {
               className="value"
               value={input}
               placeholder="0"
-              maxLength={16}
+              maxLength={7}
               disabled
             />
             <input

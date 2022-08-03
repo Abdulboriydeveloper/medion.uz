@@ -3,7 +3,7 @@ import './frame5.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import {Link} from 'react-router-dom';
-import {AiFillHome} from 'react-icons/ai';
+import {IoHomeSharp} from 'react-icons/io5';
 import {FaRegArrowAltCircleRight} from 'react-icons/fa'
 
 const Frame5 = () => {
@@ -23,7 +23,7 @@ const Frame5 = () => {
 
             <div className="diagnostikaFrame5Container">
               <div className="d-flex justify-content-center" data-aos="zoom-in" data-aos-delay="200">
-                <Link className="nav-title-link nav-link nav-link-navbar active active-nav diagnostikaFrame5" aria-current="page" to="#"><h1 className='praysTextLittleFrame5'>МРТ</h1></Link>
+                <Link className="nav-title-link nav-link nav-link-navbar active active-nav diagnostikaFrame5" aria-current="page" to="/frame8"><h1 className='praysTextLittleFrame5'>МРТ</h1></Link>
               </div>
               <div className="d-flex justify-content-center" data-aos="zoom-in" data-aos-delay="200">
                 <Link className="nav-title-link nav-link nav-link-navbar active active-nav diagnostikaFrame5" aria-current="page" to="#"><h1 className='praysTextLittleFrame5'>МСКТ</h1></Link>
@@ -43,8 +43,8 @@ const Frame5 = () => {
             </div>
 
             <div className="d-flex justify-content-center iconsFrame5" data-aos="zoom-in" data-aos-delay="200">
-              <Link className="nav-title-link nav-link nav-link-navbar active active-nav homeIcon" aria-current="page" to="/"><AiFillHome className='iconHome'/> <p className='domoyText'>ДОМОЙ</p></Link>
-              <Link className="nav-title-link nav-link nav-link-navbar active active-nav nazadIcon" aria-current="page" to="/frame4"><FaRegArrowAltCircleRight className='iconNazad'/>  <p className='nazadText'>НАЗАД</p></Link>
+              <Link className="nav-title-link nav-link nav-link-navbar active active-nav homeIconFrame5" aria-current="page" to="/"><IoHomeSharp className='iconHomeFrame5'/> <p className='domoyTextFrame5'>ДОМОЙ</p></Link>
+              <Link className="nav-title-link nav-link nav-link-navbar active active-nav nazadIconFrame5" aria-current="page" to="/frame4"><FaRegArrowAltCircleRight className='iconNazad'/>  <p className='nazadTextFrame5'>НАЗАД</p></Link>
             </div>
 
         </div>

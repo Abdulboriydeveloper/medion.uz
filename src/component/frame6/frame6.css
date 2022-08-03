@@ -15,7 +15,7 @@
 .textLogoFrame6{
   width: 246.59px;
   height: 65.22px;
-  background-image: url('../../assets/images/лого-Medion2.png');
+  background-image: url('../../assets/images/лого-Medion2.svg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -58,21 +58,21 @@
 .iconsFrame6{
   margin-top: 2.29%;
 }
-.homeIcon{
+.homeIconFrame6{
   width: 64px;
   height: 64px;
   background-color: #1F2C50;
   margin-right: 89px;
   border-radius: 50%;
 }
-.iconHome{
+.iconHomeFrame6{
   color: #FFFFFF;
   width: 63px;
   height: 60px;
   margin-left: -45%;
   margin-top: -25%;
 }
-.nazadIcon{
+.nazadIconFrame6{
   width: 64px;
   height: 64px;
   background-color: #1F2C50;
@@ -87,7 +87,7 @@
   margin-left: -75%;
   margin-top: -45%;
 }
-.domoyText{
+.domoyTextFrame6{
   font-family: 'HelveticaNeueCyr';
   font-style: normal;
   font-weight: 550;
@@ -96,7 +96,7 @@
   color: #1F2C50;
   margin-left: -40%;
 }
-.nazadText{
+.nazadTextFrame6{
   font-family: 'HelveticaNeueCyr';
   font-style: normal;
   font-weight: 550;
@@ -118,8 +118,8 @@
   }
   .praysFrame6{
     margin-top: 12%;
-    width: 500px;
-    height: 80px;
+    width: 350px;
+    height: 45px;
     border-radius: 40px;
   }
   .praysText{
@@ -133,21 +133,21 @@
   .iconsFrame6{
     margin-top: 13%;
   }
-  .homeIcon{
+  .homeIconFrame6{
     width: 110px;
     height: 110px;
   }
-  .domoyText {
+  .domoyTextFrame6 {
     font-size: 35px;
     line-height: 65px;
   }
-  .iconHome {
+  .iconHomeFrame6 {
     width: 99px;
     height: 100px;
     margin-left: -15%;
     margin-top: -8%;
   }
-  .nazadIcon{
+  .nazadIconFrame6{
     width: 110px;
     height: 110px;
     margin-top: -5px;
@@ -156,7 +156,7 @@
     width: 250%;
     height: 180%;
   }
-  .nazadText{
+  .nazadTextFrame6{
     font-size: 35px;
     line-height: 0px;
   }
@@ -167,5 +167,50 @@
   }
   .praysFrame6{
     margin-top: 3%;
+  }
+}
+
+@media only screen and (min-width: 700px) and (min-height: 1200px) {
+  .praysFrame6 {
+    width: 500px;
+    height: 80px;
+    background: #BF2619;
+    border-radius: 45.625px;
+    margin-top: 7%;
+    border-style: none;
+  }
+  .praysTextFrame6{
+    font-size: 50px;
+    line-height: 35px;
+  }
+  .diagnostikaFrame6{
+    width: 315px;
+    height: 50px;
+    margin-top: 15px;
+  }
+  .praysTextLittleFrame6{
+    font-size: 30px;
+  }
+  .homeIconFrame6 {
+    width: 90px;
+    height: 90px;
+  }
+  .nazadIconFrame6{
+    width: 90px;
+    height: 90px;
+  }
+  .iconHomeFrame6 {
+    width: 80px;
+    height: 75px;
+    margin-left: -18%;
+    margin-top: -8%;
+  }
+  .domoyTextFrame6{
+    font-size: 30px;
+    line-height: 80px;
+  }
+  .nazadTextFrame6{
+    font-size: 30px;
+    line-height: 17px;
   }
 }

@@ -30,14 +30,14 @@ const Frame1 = () => {
           <div class="flex-item-left">
             <div class="flex-container flex-containerFrame1" data-aos="zoom-in" data-aos-delay="200">
               <div class="flex-item-start">
-              <ImFacebook2/> @medionuz
-                <br />
+                <ImFacebook2/> @medionuz
+                  <br />
                 <AiOutlineInstagram/> @medionuz
               </div>
             </div>
           </div>
           <div class="flex-item-right">
-            <div class="flex-container flex-containerFrame1">
+            <div class="flex-container flex-containerFrame1 frame1FlexContainer">
               <div class="flex-item-right" data-aos="zoom-in" data-aos-delay="300">
                 <p className='callCenterText'>CALL CENTER</p>
                 <p className='shortNumber'> <BsTelephoneFill className='phoneIcon'/>1223</p>

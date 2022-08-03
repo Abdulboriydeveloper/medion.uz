@@ -14,13 +14,13 @@ const Frame2 = () => {
   })
   return (
       <div>
-         <div className='frame2Page'>
+        <div className='frame2Page'>
             <div className="d-flex justify-content-start  mb-3">
               <div ><div className="vector1Frame2"></div></div>
             </div>
             
-            <div className="d-flex justify-content-center"><div className='logomedionFrame2'></div></div>
-            <div className="d-flex justify-content-center"><div className="textLogoFrame2"></div></div>
+            <div className="d-flex justify-content-center"><div className='logomedionFrame2' data-aos="zoom-in" data-aos-delay="50"></div></div>
+            <div className="d-flex justify-content-center"><div className="textLogoFrame2" data-aos="zoom-in" data-aos-delay="100"></div></div>
             
             <div className="container frame2Container" data-aos="zoom-in-down">
               <div className="row gy-4">
@@ -31,7 +31,7 @@ const Frame2 = () => {
                 </div>
                 <div className="col-lg-4 col-md-6 arrowFrameWrapper" data-aos="zoom-in-down" data-aos-delay="300">
                   <div className="service-box orange"> 
-                  <center><MdArrowForwardIos className='arrowFrame2'/></center>
+                    <center><MdArrowForwardIos className='arrowFrame2'/></center>
                   </div>
                 </div>
                 <div className="col-lg-4 col-md-6" data-aos="zoom-in-down" data-aos-delay="400">
@@ -81,14 +81,6 @@ const Frame2 = () => {
                 </div>
               </div>
             </div>
-            
-
-            {/* <div class="d-flex justify-content-between  mb-3">
-              <div className="vector2Frame2"></div>
-            </div>
-            <div class="d-flex justify-content-end">
-              <div className="vector3Frame2"></div>
-            </div> */}
 
           </div>
     </div>

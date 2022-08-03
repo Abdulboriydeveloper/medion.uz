@@ -3,7 +3,7 @@ import './frame4.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import {Link} from 'react-router-dom';
-import {AiFillHome} from 'react-icons/ai';
+import {IoHomeSharp} from 'react-icons/io5';
 import {FaRegArrowAltCircleRight} from 'react-icons/fa'
 
 const Frame4 = () => {
@@ -46,8 +46,8 @@ const Frame4 = () => {
             </div>
 
             <div className="d-flex justify-content-center iconsFrame4" data-aos="zoom-in" data-aos-delay="200">
-              <Link className="nav-title-link nav-link nav-link-navbar active active-nav homeIcon" aria-current="page" to="/"><AiFillHome className='iconHome'/> <p className='domoyText'>ДОМОЙ</p></Link>
-              <Link className="nav-title-link nav-link nav-link-navbar active active-nav nazadIcon" aria-current="page" to="/frame3"><FaRegArrowAltCircleRight className='iconNazad'/>  <p className='nazadText'>НАЗАД</p></Link>
+              <Link className="nav-title-link nav-link nav-link-navbar active active-nav homeIconFrame4" aria-current="page" to="/"><IoHomeSharp className='iconHomeFrame4'/> <p className='domoyTextFrame4'>ДОМОЙ</p></Link>
+              <Link className="nav-title-link nav-link nav-link-navbar active active-nav nazadIconFrame4" aria-current="page" to="/frame3"><FaRegArrowAltCircleRight className='iconNazad'/>  <p className='nazadTextFrame4'>НАЗАД</p></Link>
             </div>
 
         </div>

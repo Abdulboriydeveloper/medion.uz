@@ -15,7 +15,7 @@
 .textLogoFrame20{
   width: 246.59px;
   height: 65.22px;
-  background-image: url('../../assets/images/лого-Medion2.png');
+  background-image: url('../../assets/images/лого-Medion2.svg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -85,21 +85,21 @@
 .iconsFrame20{
   margin-top: 5.29%;
 }
-.homeIcon{
+.homeIconFrame20{
   width: 64px;
   height: 64px;
   background-color: #1F2C50;
   margin-right: 89px;
   border-radius: 50%;
 }
-.iconHome{
+.iconHomeFrame20{
   color: #FFFFFF;
   width: 63px;
   height: 60px;
   margin-left: -45%;
   margin-top: -25%;
 }
-.nazadIcon{
+.nazadIconFrame20{
   width: 64px;
   height: 64px;
   background-color: #1F2C50;
@@ -107,14 +107,14 @@
   border-radius: 50%;
   margin-top: -6px;
 }
-.iconNazad{
+.iconNazadFrame20{
   color: #FFFFFF;
   width: 240%;
   height: 169%;
   margin-left: -75%;
   margin-top: -45%;
 }
-.domoyText{
+.domoyTextFrame20{
   font-family: 'HelveticaNeueCyr';
   font-style: normal;
   font-weight: 550;
@@ -123,7 +123,7 @@
   color: #1F2C50;
   margin-left: -40%;
 }
-.nazadText{
+.nazadTextFrame20{
   font-family: 'HelveticaNeueCyr';
   font-style: normal;
   font-weight: 550;
@@ -146,30 +146,30 @@
   .iconsFrame20{
     margin-top: 13%;
   }
-  .homeIcon{
+  .homeIconFrame20{
     width: 100px;
     height: 100px;
   }
-  .domoyText {
+  .domoyTextFrame20 {
     font-size: 35px;
     line-height: 65px;
   }
-  .iconHome {
+  .iconHomeFrame20 {
     width: 90px;
     height: 80px;
     margin-left: -15%;
     margin-top: -8%;
   }
-  .nazadIcon{
+  .nazadIconFrame20{
     width: 100px;
     height: 100px;
     margin-top: -5px;
   }
-  .iconNazad{
+  .iconNazadFrame20{
     width: 250%;
     height: 180%;
   }
-  .nazadText{
+  .nazadTextFrame20{
     font-size: 35px;
     line-height: 0px;
   }
@@ -177,5 +177,61 @@
 @media all and (display-mode: fullscreen){
   .frame20Page {
     height: 100vh !important;
+  }
+}
+
+@media only screen and (min-width: 700px) and (min-height: 1200px) {
+  .frame20Title {
+    font-size: 39px;
+    line-height: 43px;
+    margin-top: 3%;
+  }
+
+  .grid-containerFrame20 {
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: 10%;
+    margin-left: -16%;
+  }
+  .grid-containerFrame20 > div {
+    width: 215px;
+    height: 240px;
+    border-radius: 5.3px;
+  }
+  .cardImg {
+    width: 200px;
+    height: 135px;
+    border-radius: 6.3px;
+  }
+  .grid-containerFrame20 > div > h4 {
+    font-size: 18px;
+  }
+
+
+  .iconsFrame20 {
+    margin-top: 25%;
+  }
+  .homeIconFrame20 {
+    width: 75px;
+    height: 75px;
+  }
+  .domoyTextFrame20 {
+    font-size: 25px;
+    line-height: 65px;
+    margin-left: -55%;
+  }
+  .nazadTextFrame20 {
+    font-size: 25px;
+    line-height: 13px;
+  }
+  .iconHomeFrame20 {
+    width: 45px;
+    height: 60px;
+    margin-left: 1%;
+  }
+  .nazadIconFrame20 {
+    width: 75px;
+    height: 75px;
+    margin-top: -5px;
   }
 }

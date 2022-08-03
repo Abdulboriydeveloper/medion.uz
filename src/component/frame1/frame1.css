@@ -15,7 +15,7 @@
 .textLogo{
   width: 252.59px;
   height: 69.22px;
-  background-image: url('../../assets/images/лого-Medion2.png');
+  background-image: url('../../assets/images/лого-Medion2.svg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -156,5 +156,23 @@
 @media all and (display-mode: fullscreen){
   .frame1Page {
     height: 100vh !important;
+  }
+}
+
+@media only screen and (min-width: 700px) and (min-height: 1200px) {
+  .logomedion{
+    margin-top: 30%;
+  }
+  .welcomeText {
+    margin-top: 15%;
+  }
+  .frame1Button {
+    margin-top: 0%;
+  }
+  .flex-containerFrame1 {
+    margin-top: 24.2%;
+  }
+  .frame1FlexContainer{
+    margin-top: 21%;
   }
 }

@@ -1,0 +1,269 @@
+.frame24Page{
+  width: 100%;
+  height: 100vh;
+  background-image: url('../../assets/images/cardBg.jpg');
+  background-size: cover; 
+  background-repeat: repeat; 
+}
+.logomedionFrame24{
+  width: 167.94px;
+  height: 141.02px;
+  background-image: url('../../assets/images/лого-Medion1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.textLogoFrame24{
+  width: 246.59px;
+  height: 65.22px;
+  background-image: url('../../assets/images/лого-Medion2.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.nameInput{
+  width: 53%;
+  height: 68px;
+  background: #FFFFFF;
+  border: 1px solid #E9E9E9;
+  border-radius: 5px;
+}
+.nameInputText{
+  margin-left: 3%;
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 21px;
+  color: #000000;
+}
+.inputWrapper{
+  margin-top: 1%;
+}
+.dateInput{
+  width: 17%;
+  height: 68px;
+  background: #FFFFFF;
+  border: 1px solid #E9E9E9;
+  border-radius: 5px;
+}
+.idInput{
+  width: 17%;
+  height: 68px;
+  background: #FFFFFF;
+  border: 1px solid #E9E9E9;
+  border-radius: 5px;
+  margin-left: 1%;
+}
+.polInput{
+  width: 17%;
+  height: 68px;
+  background: #FFFFFF;
+  border: 1px solid #E9E9E9;
+  border-radius: 5px;
+  margin-left: 1%;
+}
+.dateText{
+  text-align: center;
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 19px;
+  color: #000000;
+}
+.idText{
+  text-align: center;
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 19px;
+  color: #000000;
+}
+.polText{
+  text-align: center;
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 19px;
+  color: #000000;
+}
+.btnLinkFrame24{
+  margin-top: 3%;
+}
+.frame24Btn{
+  width: 300px;
+  height: 55px;
+  background: #BF2619;
+  border-radius: 50px;
+  border-style: none;
+  /* margin-top: 15%; */
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 550;
+  font-size: 30px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+.iconsFrame24{
+  margin-top: 5.29%;
+}
+.homeIconFrame24{
+  width: 64px;
+  height: 64px;
+  background-color: #1F2C50;
+  margin-right: 89px;
+  border-radius: 50%;
+}
+.iconHomeFrame24{
+  color: #FFFFFF;
+  width: 63px;
+  height: 60px;
+  margin-left: -45%;
+  margin-top: -25%;
+}
+.nazadIconFrame24{
+  width: 64px;
+  height: 64px;
+  background-color: #1F2C50;
+  margin-left: 1%;
+  border-radius: 50%;
+  margin-top: -6px;
+}
+.iconNazadFrame24{
+  color: #FFFFFF;
+  width: 240%;
+  height: 169%;
+  margin-left: -75%;
+  margin-top: -45%;
+}
+.domoyTextFrame24{
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 38px;
+  color: #1F2C50;
+  margin-left: -40%;
+}
+.nazadTextFrame24{
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 550;
+  font-size: 17px;
+  line-height: 22px;
+  color: #1F2C50;
+  margin-left: -30%;
+}
+
+@media only screen and (max-width: 820px) {
+  .logomedionFrame24{
+    margin-top: 5%;
+    width: 233.94px;
+    height: 170.02px;
+  }
+  .textLogoFrame24{
+    width: 310.59px;
+    height: 86.22px;
+  }
+  .iconsFrame24{
+    margin-top: 13%;
+  }
+  .homeIconFrame24{
+    width: 95px;
+    height: 95px;
+  }
+  .domoyTextFrame24 {
+    font-size: 35px;
+    line-height: 65px;
+  }
+  .iconHomeFrame24 {
+    width: 95px;
+    height: 85px;
+    margin-left: -24%;
+    margin-top: -8%;
+
+  }
+  .nazadIconFrame24{
+    width: 95px;
+    height: 95px;
+    margin-top: -5px;
+  }
+  .iconNazadFrame24{
+    width: 250%;
+    height: 180%;
+  }
+  .nazadTextFrame24{
+    font-size: 35px;
+    line-height: 0px;
+  }
+}
+@media all and (display-mode: fullscreen){
+  .frame24Page {
+    height: 100vh !important;
+  }
+}
+@media only screen and (min-width: 700px) and (max-height: 1200px) {
+  .nameInput {
+    width: 83%;
+    height: 85px;
+  }
+  .nameInputText {
+    font-size: 27px;
+    line-height: 26px;
+  }
+  .dateInput {
+    width: 27%;
+    height: 85px;
+  }
+  .idInput {
+    width: 27%;
+    height: 85px;
+  }
+  .polInput {
+    width: 27%;
+    height: 85px;
+  }
+  .dateText {
+    font-size: 27px;
+    line-height: 26px;
+  }
+  .idText {
+    font-size: 27px;
+    line-height: 26px;
+  }
+  .polText {
+    font-size: 27px;
+    line-height: 26px;
+  }
+  .frame24Btn {
+    width: 330px;
+    height: 70px;
+    margin-top: 25%;
+    font-size: 35px;
+    line-height: 18px;
+  } 
+  .homeIconFrame24 {
+    width: 75px;
+    height: 75px;
+  }
+  .iconHomeFrame24 {
+    width: 65px;
+    height: 65px;
+    margin-left: -24%;
+    margin-top: -10%;
+  }
+  .nazadIconFrame24 {
+    width: 75px;
+    height: 75px;
+  }
+  .domoyTextFrame24 {
+    font-size: 26px;
+    line-height: 60px;
+    margin-left: -65%;
+  }
+  .nazadTextFrame24{
+    font-size: 26px;
+    line-height: 13px;
+  }
+}

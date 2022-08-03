@@ -18,7 +18,7 @@ function Calculator() {
     else if (val === "log") val = "log(";
 
     let str = input + val;
-    if (str.length > 14) return;
+    if (str.length > 6) return;
 
     if (answer !== "") {
       setInput(answer + val);

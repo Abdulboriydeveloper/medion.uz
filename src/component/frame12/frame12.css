@@ -15,7 +15,7 @@
 .textLogoFrame12{
   width: 246.59px;
   height: 65.22px;
-  background-image: url('../../assets/images/лого-Medion2.png');
+  background-image: url('../../assets/images/лого-Medion2.svg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -59,7 +59,7 @@
 .rowBtnImg{
   width: 8px;
 }
-.iconsRow{
+.iconsRowFrame12{
   margin-top: 2% !important;
   margin-left: 5% !important;
 }
@@ -73,21 +73,21 @@
   margin-left: 10%;
   margin-top: 3%;
 }
-.homeIcon{
+.homeIconFrame12{
   width: 64px;
   height: 64px;
   background-color: #1F2C50;
   margin-right: 89px;
   border-radius: 50%;
 }
-.iconHome{
+.iconHomeFrame12{
   color: #FFFFFF;
   width: 63px;
   height: 60px;
   margin-left: -45%;
   margin-top: -25%;
 }
-.nazadIcon{
+.nazadIconFrame12{
   width: 64px;
   height: 64px;
   background-color: #1F2C50;
@@ -95,14 +95,14 @@
   border-radius: 50%;
   margin-top: -3px;
 }
-.nazadIconLeft{
+.nazadIconLeftFrame12{
   width: 64px;
   height: 64px;
   background: #D8D8D8;
   margin-right: 89px;
   border-radius: 50%;
 }
-.nazadIconRight{
+.nazadIconRightFrame12{
   width: 64px;
   height: 64px;
   background-color: #BF2619;
@@ -110,14 +110,14 @@
   border-radius: 50%;
   margin-top: -3px;
 }
-.iconNazad{
+.iconNazadFrame12{
   color: #FFFFFF;
   width: 240%;
   height: 169%;
   margin-left: -75%;
   margin-top: -45%;
 }
-.domoyText{
+.domoyTextFrame12{
   font-family: 'HelveticaNeueCyr';
   font-style: normal;
   font-weight: 550;
@@ -126,7 +126,7 @@
   color: #1F2C50;
   margin-left: -40%;
 }
-.nazadText{
+.nazadTextFrame12{
   font-family: 'HelveticaNeueCyr';
   font-style: normal;
   font-weight: 550;
@@ -149,7 +149,7 @@
   .iconsFrame6{
     margin-top: 13%;
   }
-  .homeIcon{
+  .homeIconFrame12{
     width: 100px;
     height: 100px;
   }
@@ -160,34 +160,34 @@
     margin-left: 35%;
     margin-top: 3%;
   }
-  .domoyText {
+  .domoyTextFrame12 {
     font-size: 35px;
     line-height: 65px;
   }
-  .iconHome {
+  .iconHomeFrame12 {
     width: 90px;
     height: 80px;
     margin-left: -15%;
     margin-top: -8%;
   }
-  .nazadIcon{
+  .nazadIconFrame12{
     width: 90px;
     height: 90px;
     margin-top: -5px;
   }
-  .nazadIconLeft {
+  .nazadIconLeftFrame12 {
     width: 90px;
     height: 90px;
   }
-  .nazadIconRight {
+  .nazadIconRightFrame12 {
     width: 90px;
     height: 90px;
   }
-  .iconNazad{
+  .iconNazadFrame12{
     width: 250%;
     height: 180%;
   }
-  .nazadText{
+  .nazadTextFrame12{
     font-size: 35px;
     line-height: 0px;
   }
@@ -208,5 +208,66 @@
 @media all and (display-mode: fullscreen){
   .frame12Page{
     height: 100vh !important;
+  }
+}
+
+@media only screen and (min-width: 700px) and (min-height: 1200px) {
+  .rowFrame12{
+    margin-left: -14% !important;
+  }
+  .col2Frame12 {
+    width: 294px !important;
+    justify-items: center;
+    margin-left: 1%;
+  }
+  .buttonFrame12 {
+    width: 295px !important;
+    height: 65px;
+    border: 2px solid #E9E9E9;
+    margin-top: 5px;
+    font-size: 25px;
+    line-height: 60px;
+    margin-left: 0% !important;
+  }
+  .iconsRowFrame12{
+    margin-top: 35% !important;
+  }
+  .homeIconFrame12{
+    width: 75px;
+    height: 75px;
+    margin-right: 70px;
+  }
+  .nazadIconLeftFrame12{
+    margin-right: 70px;
+    width: 75px;
+    height: 75px;
+  }
+  .nazadIconRightFrame12 {
+    width: 75px;
+    height: 75px;
+  }
+  .iconHomeFrame12 {
+    margin-left: -25%;
+    width: 65px;
+    height: 65px;
+  }
+  .nazadIconFrame12{
+    width: 75px;
+    height: 75px;
+  }
+  .domoyTextFrame12{
+    font-size: 24px;
+    margin-left: -53%;
+    line-height: 50px;
+  }
+  .nazadTextFrame12{
+    font-size: 24px;
+    line-height: 10px;
+  }
+  .firstIconGroupFrame12 {
+    margin-left: -8%;
+  }
+  .secondIconGroupFrame12 {
+    margin-left: 55%;
   }
 }

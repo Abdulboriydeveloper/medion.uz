@@ -15,7 +15,7 @@
 .textLogoFrame9{
   width: 246.59px;
   height: 65.22px;
-  background-image: url('../../assets/images/лого-Medion2.png');
+  background-image: url('../../assets/images/лого-Medion2.svg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -82,7 +82,7 @@
   margin-top: -5% !important;
 }
 
-.iconsRow{
+.iconsRowFrame9{
   margin-top: 4%;
 }
 .iconsFrame9{
@@ -95,21 +95,21 @@
   margin-left: 10%;
   margin-top: -0.5%;
 }
-.homeIcon{
+.homeIconFrame9{
   width: 64px;
   height: 64px;
   background-color: #1F2C50;
   margin-right: 89px;
   border-radius: 50%;
 }
-.iconHome{
+.iconHomeFrame9{
   color: #FFFFFF;
   width: 63px;
   height: 60px;
   margin-left: -45%;
   margin-top: -25%;
 }
-.nazadIcon{
+.nazadIconFrame9{
   width: 64px;
   height: 64px;
   background-color: #1F2C50;
@@ -117,14 +117,14 @@
   border-radius: 50%;
   margin-top: -3px;
 }
-.nazadIconLeft{
+.nazadIconLeftFrame9{
   width: 64px;
   height: 64px;
   background: #D8D8D8;
   margin-right: 89px;
   border-radius: 50%;
 }
-.nazadIconRight{
+.nazadIconRightFrame9{
   width: 64px;
   height: 64px;
   background-color: #BF2619;
@@ -132,14 +132,14 @@
   border-radius: 50%;
   margin-top: -3px;
 }
-.iconNazad{
+.iconNazadFrame9{
   color: #FFFFFF;
   width: 240%;
   height: 169%;
   margin-left: -75%;
   margin-top: -45%;
 }
-.domoyText{
+.domoyTextFrame9{
   font-family: 'HelveticaNeueCyr';
   font-style: normal;
   font-weight: 550;
@@ -148,7 +148,7 @@
   color: #1F2C50;
   margin-left: -40%;
 }
-.nazadText{
+.nazadTextFrame9{
   font-family: 'HelveticaNeueCyr';
   font-style: normal;
   font-weight: 550;
@@ -194,41 +194,41 @@
     margin-left: 35%;
     margin-top: 3%;
   }
-  .iconsRow {
+  .iconsRowFrame9 {
     margin-top: 20% !important;
   }
-  .homeIcon{
+  .homeIconFrame9{
     width: 100px;
     height: 100px;
   }
-  .domoyText {
+  .domoyTextFrame9 {
     font-size: 35px;
     line-height: 65px;
   }
-  .iconHome {
+  .iconHomeFrame9 {
     width: 90px;
     height: 80px;
     margin-left: -15%;
     margin-top: -8%;
   }
-  .nazadIcon{
+  .nazadIconFrame9{
     width: 90px;
     height: 90px;
     margin-top: -5px;
   }
-  .nazadIconLeft {
+  .nazadIconLeftFrame9 {
     width: 90px;
     height: 90px;
   }
-  .nazadIconRight {
+  .nazadIconRightFrame9 {
     width: 90px;
     height: 90px;
   }
-  .iconNazad{
+  .iconNazadFrame9{
     width: 250%;
     height: 180%;
   }
-  .nazadText{
+  .nazadTextFrame9{
     font-size: 35px;
     line-height: 0px;
   }
@@ -240,5 +240,65 @@
 @media all and (display-mode: fullscreen){
   .frame9Page{
     height: 100vh !important;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-height: 1200px) {
+  .flex-containerFrame9 {
+    width: 125%;
+    height: 85px;
+    margin-top: 5%;
+    margin-left: -13%;
+  }
+  .frame9Text {
+    font-size: 17px;
+    line-height: 60px;
+  }
+  .frame9Number {
+    font-size: 17px;
+    line-height: 60px;
+  }
+  .flexItemBtn {
+    margin-top: -2.5%;
+  }
+  .iconsRowFrame9{
+    margin-top: 20% !important;
+  }
+  .homeIconFrame9 {
+    width: 75px;
+    height: 75px;
+  }
+  .iconHomeFrame9 {
+    width: 65px;
+    height: 65px;
+    margin-left: -22%;
+    margin-top: -10%;
+  }
+  .domoyTextFrame9 {
+    font-size: 26px;
+    margin-left: -60%;
+    line-height: 65px;
+  }
+  .nazadTextFrame9 {
+    font-size: 26px;
+    line-height: 20px;
+  }
+  .nazadIconFrame9 {
+    width: 75px;
+    height: 75px;
+    margin-top: -5px;
+  }
+  .secondIconGroupFrame9 {
+    margin-left: 45%;
+    margin-top: 3%;
+  }
+  .nazadIconLeftFrame9 {
+    width: 75px;
+    height: 75px;
+    margin-top: -5px;
+  }
+  .nazadIconRightFrame9 {
+    width: 75px;
+    height: 75px;
   }
 }

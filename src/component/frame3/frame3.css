@@ -15,7 +15,7 @@
 .textLogoFrame3{
   width: 246.59px;
   height: 65.22px;
-  background-image: url('../../assets/images/лого-Medion2.png');
+  background-image: url('../../assets/images/лого-Medion2.svg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -76,21 +76,21 @@
 .iconsFrame3{
   margin-top: 5.29%;
 }
-.homeIcon{
+.homeIconFrame3{
   width: 64px;
   height: 64px;
   background-color: #1F2C50;
   margin-right: 89px;
   border-radius: 50%;
 }
-.iconHome{
+.iconHomeFrame3{
   color: #FFFFFF;
   width: 63px;
   height: 60px;
   margin-left: -45%;
   margin-top: -25%;
 }
-.nazadIcon{
+.nazadIconFrame3{
   width: 64px;
   height: 64px;
   background-color: #1F2C50;
@@ -114,7 +114,7 @@
   color: #1F2C50;
   margin-left: -40%;
 }
-.nazadText{
+.nazadTextFrame3{
   font-family: 'HelveticaNeueCyr';
   font-style: normal;
   font-weight: 550;
@@ -165,30 +165,30 @@
   .iconsFrame3{
     margin-top: 13%;
   }
-  .homeIcon{
-    width: 110px;
-    height: 110px;
+  .homeIconFrame3{
+    width: 95px;
+    height: 95px;
   }
   .domoyText {
     font-size: 35px;
     line-height: 65px;
   }
-  .iconHome {
-    width: 99px;
-    height: 100px;
-    margin-left: -15%;
-    margin-top: -8%;
+  .iconHomeFrame3 {
+    width: 75px;
+    height: 105px;
+    margin-left: -10%;
+    margin-top: -24%;
   }
-  .nazadIcon{
-    width: 110px;
-    height: 110px;
+  .nazadIconFrame3{
+    width: 95px;
+    height: 95px;
     margin-top: -5px;
   }
   .iconNazad{
     width: 250%;
     height: 180%;
   }
-  .nazadText{
+  .nazadTextFrame3{
     font-size: 35px;
     line-height: 0px;
   }
@@ -196,5 +196,44 @@
 @media all and (display-mode: fullscreen){
   .frame3Page {
     height: 100vh !important;
+  }
+}
+
+@media only screen and (min-width: 700px) and (min-height: 1200px) {
+  .vrachi{
+    margin-top: 7%;
+  }
+  .otsenka{
+    margin-top: 7%;
+  }
+  .iconsFrame3{
+    margin-top: 20%;
+  }
+  .nazadTextFrame3 {
+    font-size: 35px;
+    line-height: 28px;
+  }
+  .homeIconFrame3 {
+    width: 85px;
+    height: 85px;
+  }
+  .iconHomeFrame3 {
+    width: 55px;
+    height: 89px;
+    margin-left: 0%;
+    margin-top: -24%;
+  }
+  .nazadIconFrame3 {
+    width: 85px;
+    height: 85px;
+    margin-top: -5px;
+  }
+  .domoyText {
+    font-size: 28px;
+    line-height: 53px;
+  }
+  .nazadTextFrame3 {
+    font-size: 28px;
+    line-height: 14px;
   }
 }

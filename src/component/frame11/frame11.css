@@ -15,7 +15,7 @@
 .textLogoFrame11{
   width: 246.59px;
   height: 65.22px;
-  background-image: url('../../assets/images/лого-Medion2.png');
+  background-image: url('../../assets/images/лого-Medion2.svg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -80,7 +80,7 @@
   border-radius: 50%;
   margin-left: -10%;
 }
-.iconHome{
+.iconHomeFrame11{
   color: #FFFFFF;
   width: 63px;
   height: 60px;
@@ -110,14 +110,14 @@
   border-radius: 50%;
   margin-top: -3px;
 }
-.iconNazad{
+.iconNazadFrame11{
   color: #FFFFFF;
   width: 240%;
   height: 169%;
   margin-left: -75%;
   margin-top: -45%;
 }
-.domoyText{
+.domoyTextFrame11{
   font-family: 'HelveticaNeueCyr';
   font-style: normal;
   font-weight: 550;
@@ -126,7 +126,7 @@
   color: #1F2C50;
   margin-left: -40%;
 }
-.nazadText{
+.nazadTextFrame11{
   font-family: 'HelveticaNeueCyr';
   font-style: normal;
   font-weight: 550;
@@ -150,8 +150,8 @@
     margin-top: 13%;
   }
   .homeIconFrame11{
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
   }
   .firstIconGroupFrame11{
     margin-left: 1%;
@@ -160,15 +160,16 @@
     margin-left: 35%;
     margin-top: 3%;
   }
-  .domoyText {
+  .domoyTextFrame11 {
     font-size: 35px;
-    line-height: 65px;
+    line-height: 60px;
+    margin-left: -70%;
   }
-  .iconHome {
+  .iconHomeFrame11 {
     width: 90px;
-    height: 80px;
-    margin-left: -15%;
-    margin-top: -8%;
+    height: 93px;
+    margin-left: -25%;
+    margin-top: -27%;
   }
   .nazadIconFrame11{
     width: 90px;
@@ -183,11 +184,11 @@
     width: 90px;
     height: 90px;
   }
-  .iconNazad{
+  .iconNazadFrame11{
     width: 250%;
     height: 180%;
   }
-  .nazadText{
+  .nazadTextFrame11{
     font-size: 35px;
     line-height: 0px;
   }
@@ -208,5 +209,66 @@
 @media all and (display-mode: fullscreen){
   .frame11Page{
     height: 100vh !important;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-height: 1200px) {
+  .col2Frame11 {
+    margin-left: -16%;
+  }
+  .frame11Text {
+    font-size: 22px;
+    margin-bottom: 15%;
+  }
+  .frame11Text1{
+    margin-left: 10%;
+  }
+  .frame11Text2{
+    margin-left: 27%;
+  }
+  .display {
+    width: 285px !important;
+    height: 40px !important;
+  }
+  .btnFrame11 {
+    width: 35px !important;
+    height: 35px !important;
+  }
+  .nfcCard {
+    width: 249px !important;
+    height: 150px;
+    background: #FFFFFF;
+    border: 2px solid #E9E9E9;
+    border-radius: 10px;
+    margin-left: 3%;
+  }
+  .nfcImg {
+    width: 85px;
+    height: 85px;
+    margin-top: 13%;
+    margin-left: 31%;
+  }
+  .homeIconFrame11 {
+    width: 75px;
+    height: 75px;
+  }
+  .iconHomeFrame11 {
+    width: 65px;
+    height: 65px;
+    margin-left: -25%;
+    margin-top: -13%;
+  }
+  .domoyTextFrame11 {
+    font-size: 26px;
+    line-height: 65px;
+  }
+  .nazadIconFrame11 {
+    width: 75px;
+    height: 75px;
+    margin-top: -4px;
+  }
+  .nazadTextFrame11 {
+    font-size: 26px;
+    line-height: 14px;
   }
 }

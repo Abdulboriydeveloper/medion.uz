@@ -1,0 +1,247 @@
+.frame14Page{
+  width: 100%;
+  height: 100vh;
+  background-image: url('../../assets/images/cardBg.jpg');
+  background-size: cover; 
+  background-repeat: repeat; 
+}
+.logomedionFrame14{
+  width: 200.94px;
+  height: 141.02px;
+  background-image: url('../../assets/images/лого-Medion1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.textLogoFrame14{
+  width: 246.59px;
+  height: 65.22px;
+  background-image: url('../../assets/images/лого-Medion2.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.frame14NameTitle{
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  color: #BF2619;
+  margin-top: 0%;
+  margin-bottom: 5px;
+}
+.frame14SubNameTitle{
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 14px;
+  color: #808080;
+}
+.frame14Row1{
+  background: #FFFFFF;
+  border: 1px solid #E9E9E9;
+  border-radius: 10px 10px 0 0 ;
+  border-bottom: none;
+}
+.frame14Row1FirstCol{
+  border-radius: 10px 0 0 0 ;
+}
+.frame14Row1LastCol{
+  border-radius: 0 10px 0 0 ;
+}
+.frame14Row2FirstCol{
+  border-radius: 0 0 0 10px;
+}
+.frame14Row2LastCol{
+  border-radius: 0 0 10px 0;
+}
+.frame14Row2{
+  background: #FFFFFF;
+  border: 1px solid #E9E9E9;
+  border-radius: 0 0 10px 10px;
+}
+.frame14Row1 > .col-2{
+  border: 1px solid #E9E9E9;
+  border-bottom: none;
+
+}
+.frame14Row1 > .col-2 > .active > p {
+  text-align: center;
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #808080;
+}
+.frame14Row2 > .col-2 > .active > p {
+  text-align: center;
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #808080;
+}
+.frame14Row2 > .col-2{
+  border: 1px solid #E9E9E9;
+}
+.redSpan{
+  width: 27px !important;
+  height: 27px;
+  background: #BF2619 ;
+}
+.row > .col-11 > p {
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+  color: #808080;
+  margin-left: 2%;
+}
+
+.iconsRowFrame14{
+  margin-top: 4%;
+}
+.iconsFrame14{
+  margin-top: 2.29%;
+}
+.firstIconGroupFrame14{
+  margin-left: -10% !important;
+}
+.homeIconFrame14{
+  width: 61px;
+  height: 61px;
+  background-color: #1F2C50;
+  margin-right: 89px;
+  border-radius: 50%;
+}
+.iconHomeFrame14{
+  color: #FFFFFF;
+  width: 58px;
+  height: 58px;
+  margin-left: -37%;
+  margin-top: -25%;
+}
+.nazadIconFrame14{
+  width: 64px;
+  height: 64px;
+  background-color: #1F2C50;
+  margin-left: 1%;
+  border-radius: 50%;
+  margin-top: -3px;
+}
+.iconNazadFrame14{
+  color: #FFFFFF;
+  width: 240%;
+  height: 169%;
+  margin-left: -75%;
+  margin-top: -45%;
+}
+.domoyTextFrame14{
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 38px;
+  color: #1F2C50;
+  margin-left: -40%;
+}
+.nazadTextFrame14{
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 550;
+  font-size: 17px;
+  line-height: 22px;
+  color: #1F2C50;
+  margin-left: -30%;
+}
+
+@media only screen and (max-width: 820px) {
+  .logomedionFrame14{
+    margin-top: 5%;
+    width: 233.94px;
+    height: 170.02px;
+  }
+  .textLogoFrame14{
+    width: 310.59px;
+    height: 86.22px;
+  }
+  .frame14Text{
+    width: 120%;
+  }
+  .frame14Row1 > .col-2 > p {
+    margin-top: 10%;
+  }
+  .iconsFrame14{
+    margin-top: 13%;
+  }
+  .firstIconGroupFrame14{
+    margin-left: 1%;
+  }
+  .iconsRowFrame14 {
+    margin-top: 20% !important;
+  }
+  .homeIconFrame14{
+    width: 100px;
+    height: 100px;
+  }
+  .domoyTextFrame14 {
+    font-size: 35px;
+    line-height: 65px;
+  }
+  .iconHomeFrame14{
+    width: 95px;
+    height: 88px;
+    margin-left: -18%;
+    margin-top: -8%;
+  }
+  .nazadIconFrame14{
+    width: 90px;
+    height: 90px;
+    margin-top: -5px;
+  }
+  .iconNazadFrame14{
+    width: 250%;
+    height: 180%;
+  }
+  .nazadTextFrame14{
+    font-size: 35px;
+    line-height: 0px;
+  }
+}
+@media all and (display-mode: fullscreen){
+  .frame14Page{
+    height: 100vh !important;
+  }
+}
+
+@media only screen and (min-width: 700px) and (min-height: 1200px) {
+  .iconsRowFrame14{
+    margin-top: 35% !important;
+  }
+  .firstIconGroupFrame14 {
+    margin-left: 5% !important;
+  }
+  .homeIconFrame14 {
+    margin-right: 170px;
+  }
+  .homeIconFrame14{
+    width: 90px;
+    height: 90px;
+  }
+  .iconHomeFrame14 {
+    width: 62px;
+    height: 65px;
+    margin-left: 0%;
+    margin-top: 1%;
+  }
+  .domoyTextFrame14 {
+    font-size: 27px;
+    line-height: 85px;
+  }
+  .nazadTextFrame14 {
+    font-size: 28px;
+    line-height: 5px;
+  }
+}

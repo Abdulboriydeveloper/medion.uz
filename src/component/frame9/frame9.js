@@ -96,17 +96,17 @@ const Frame9 = () => {
             </div>
 
             <div className="container">
-              <div className="row justify-content-center iconsRow">
+              <div className="row justify-content-center iconsRowFrame9">
                 <div className="col-2 firstIconGroupFrame9">
                   <div className="d-flex justify-content-center iconsFrame9" data-aos="zoom-in" data-aos-delay="200">
-                    <Link className="nav-title-link nav-link nav-link-navbar active active-nav homeIcon" aria-current="page" to="/"><AiFillHome className='iconHome'/> <p className='domoyText'>ДОМОЙ</p></Link>
-                    <Link className="nav-title-link nav-link nav-link-navbar active active-nav nazadIcon" aria-current="page" to="/frame12"><FaRegArrowAltCircleRight className='iconNazad'/>  <p className='nazadText'>НАЗАД</p></Link>
+                    <Link className="nav-title-link nav-link nav-link-navbar active active-nav homeIconFrame9" aria-current="page" to="/"><AiFillHome className='iconHomeFrame9'/> <p className='domoyTextFrame9'>ДОМОЙ</p></Link>
+                    <Link className="nav-title-link nav-link nav-link-navbar active active-nav nazadIconFrame9" aria-current="page" to="/frame8"><FaRegArrowAltCircleRight className='iconNazadFrame9'/>  <p className='nazadTextFrame9'>НАЗАД</p></Link>
                   </div>
                 </div>
                 <div className="col-2 secondIconGroupFrame9">
                   <div className="d-flex justify-content-center iconsFrame9" data-aos="zoom-in" data-aos-delay="200">
-                  <Link className="nav-title-link nav-link nav-link-navbar active active-nav nazadIconLeft" aria-current="page" to="/frame8"><FaRegArrowAltCircleLeft className='iconNazad'/>  <p className='nazadText'>ПРЕД</p></Link>
-                    <Link className="nav-title-link nav-link nav-link-navbar active active-nav nazadIconRight" aria-current="page" to="/frame11"><FaRegArrowAltCircleRight className='iconNazad'/>  <p className='nazadText'>СЛЕД</p></Link>
+                    <Link className="nav-title-link nav-link nav-link-navbar active active-nav nazadIconLeftFrame9" aria-current="page" to="#"><FaRegArrowAltCircleLeft className='iconNazadFrame9'/>  <p className='nazadTextFrame9'>ПРЕД</p></Link>
+                    <Link className="nav-title-link nav-link nav-link-navbar active active-nav nazadIconRightFrame9" aria-current="page" to="#"><FaRegArrowAltCircleRight className='iconNazadFrame9'/>  <p className='nazadTextFrame9'>СЛЕД</p></Link>
                   </div>
                 </div>
               </div>

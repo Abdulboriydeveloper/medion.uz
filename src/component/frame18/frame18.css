@@ -1,0 +1,239 @@
+.frame18Page{
+  width: 100%;
+  height: 100vh;
+  background-image: url('../../assets/images/cardBg.jpg');
+  background-size: cover; 
+  background-repeat: repeat; 
+}
+.logomedionFrame18{
+  width: 200.94px;
+  height: 141.02px;
+  background-image: url('../../assets/images/лого-Medion1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.textLogoFrame18{
+  width: 246.59px;
+  height: 65.22px;
+  background-image: url('../../assets/images/лого-Medion2.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.разделText{
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  color: #BF2619;
+  margin-top: 0.5%;
+  margin-bottom: 42px;
+}
+.frame18Text{
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 550;
+  font-size: 25px;
+  line-height: 11px;
+  color: #000000;
+}
+.divFrame18{
+  width: 300px;
+  height: 130px;
+  background: #BF2619;
+  border-radius: 9px;
+}
+.frame18P{
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 15%;
+}
+
+.iconsRowFrame18{
+  margin-top: 8% !important;
+}
+.iconsFrame18{
+  margin-top: 2.29%;
+}
+.firstIconGroupFrame18{
+  margin-left: -8%;
+}
+.secondIconGroupFrame18{
+  margin-left: 10%;
+  margin-top: 3%;
+}
+.homeIconFrame18{
+  width: 64px;
+  height: 64px;
+  background-color: #1F2C50;
+  margin-right: 89px;
+  border-radius: 50%;
+  margin-left: 60%;
+}
+.iconHomeFrame18{
+  color: #FFFFFF;
+  width: 63px;
+  height: 60px;
+  margin-left: -45%;
+  margin-top: -25%;
+}
+.nazadIconFrame18{
+  width: 64px;
+  height: 64px;
+  background-color: #1F2C50;
+  margin-left: 100%;
+  border-radius: 50%;
+  margin-top: -3px;
+}
+.nazadIconLeft{
+  width: 64px;
+  height: 64px;
+  background: #D8D8D8;
+  margin-right: 89px;
+  border-radius: 50%;
+}
+.nazadIconRight{
+  width: 64px;
+  height: 64px;
+  background-color: #BF2619;
+  margin-left: 1%;
+  border-radius: 50%;
+  margin-top: -3px;
+}
+.iconNazadFrame18{
+  color: #FFFFFF;
+  width: 240%;
+  height: 169%;
+  margin-left: -75%;
+  margin-top: -45%;
+}
+.domoyTextFrame18{
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 38px;
+  color: #1F2C50;
+  margin-left: -40%;
+}
+.nazadTextFrame18{
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 550;
+  font-size: 17px;
+  line-height: 22px;
+  color: #1F2C50;
+  margin-left: -30%;
+}
+
+@media only screen and (max-width: 820px) {
+  .logomedionFrame18{
+    margin-top: 5%;
+    width: 233.94px;
+    height: 170.02px;
+  }
+  .textLogoFrame18{
+    width: 310.59px;
+    height: 86.22px;
+  }
+  .divFrame18{
+    width: 325px;
+    height: 180px;
+  }
+  .divFrame18 > p {
+    font-size: 25px;
+    line-height: 25px;
+    margin-top: 18%;
+  }
+  .iconsRowFrame18{
+    margin-top: 25% !important;
+  }
+  .iconsFrame18{
+    margin-top: 13%;
+  }
+  .homeIconFrame18{
+    width: 100px;
+    height: 100px;
+  }
+  .firstIconGroupFrame18{
+    margin-left: -15%;
+  }
+  .secondIconGroupFrame18{
+    margin-left: 35%;
+    margin-top: 3%;
+  }
+  .domoyTextFrame18 {
+    font-size: 35px;
+    line-height: 65px;
+  }
+  .iconHomeFrame18 {
+    width: 90px;
+    height: 80px;
+    margin-left: -15%;
+    margin-top: -8%;
+  }
+  .nazadIconFrame18{
+    width: 90px;
+    height: 90px;
+    margin-top: -5px;
+  }
+  .nazadIconLeft {
+    width: 90px;
+    height: 90px;
+  }
+  .nazadIconRight {
+    width: 90px;
+    height: 90px;
+  }
+  .iconNazadFrame18{
+    width: 250%;
+    height: 180%;
+  }
+  .nazadTextFrame18{
+    font-size: 35px;
+    line-height: 0px;
+  }
+
+}
+@media all and (display-mode: fullscreen){
+  .frame18Page{
+    height: 100vh !important;
+  }
+}
+
+@media only screen and (min-width: 700px) and (min-height: 1200px) {
+  .divFrame18 {
+    width: 302px;
+    height: 180px;
+  }
+  .divFrame18 > p {
+    font-size: 22px;
+    line-height: 25px;
+    margin-top: 18%;
+  }
+  .iconsRowFrame18 {
+    margin-left: 4% !important;
+  }
+  .homeIconFrame18 {
+    width: 90px;
+    height: 90px;
+  }
+  .iconHomeFrame18 {
+    width: 75px;
+    height: 70px;
+    margin-left: -11%;
+    margin-top: -2%;
+  }
+  .domoyTextFrame18 {
+    font-size: 28px;
+    line-height: 75px;
+  }
+  .nazadTextFrame18 {
+    font-size: 28px;
+    line-height: 3px;
+  }
+}

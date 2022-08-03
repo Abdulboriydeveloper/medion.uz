@@ -22,18 +22,18 @@ const Frame20 = () => {
 
             <div className="container">
               <div class="grid-container grid-containerFrame20" >
-                <div class="item1">
+                <div class="item1" data-aos="zoom-in" data-aos-delay="200">
                   <img className='cardImg' src={DoctorImg} alt="" />
                   <h4>Исраилов Алишер </h4>
                   {/* <img src={likeImg} alt="" /> */}
                   <span className='likeSpan'><AiFillLike className='likeIcon'/></span> <span className='dislikeSpan'><AiFillDislike className='dislikeIcon'/></span>
                 </div>
-                <div class="item2">
+                <div class="item2" data-aos="zoom-in" data-aos-delay="200">
                   <img className='cardImg' src={DoctorImg} alt="" />
                   <h4>Исраилов Алишер </h4>
                   <span className='likeSpan'><AiFillLike className='likeIcon'/></span> <span className='dislikeSpan'><AiFillDislike className='dislikeIcon'/></span>
                 </div>
-                <div class="item3">
+                <div class="item3" data-aos="zoom-in" data-aos-delay="200">
                   <img className='cardImg' src={DoctorImg} alt="" />
                   <h4>Исраилов Алишер </h4>
                   <span className='likeSpan'><AiFillLike className='likeIcon'/></span> <span className='dislikeSpan'><AiFillDislike className='dislikeIcon'/></span>
@@ -42,8 +42,8 @@ const Frame20 = () => {
             </div>
 
             <div class="d-flex justify-content-center iconsFrame20" data-aos="zoom-in" data-aos-delay="200">
-              <Link className="nav-title-link nav-link nav-link-navbar active active-nav homeIcon" aria-current="page" to="/"><AiFillHome className='iconHome'/> <p className='domoyText'>ДОМОЙ</p></Link>
-              <Link className="nav-title-link nav-link nav-link-navbar active active-nav nazadIcon" aria-current="page" to="/frame3"><FaRegArrowAltCircleRight className='iconNazad'/>  <p className='nazadText'>НАЗАД</p></Link>
+              <Link className="nav-title-link nav-link nav-link-navbar active active-nav homeIconFrame20" aria-current="page" to="/"><AiFillHome className='iconHomeFrame20'/> <p className='domoyTextFrame20'>ДОМОЙ</p></Link>
+              <Link className="nav-title-link nav-link nav-link-navbar active active-nav nazadIconFrame20" aria-current="page" to="/frame3"><FaRegArrowAltCircleRight className='iconNazadFrame20'/>  <p className='nazadTextFrame20'>НАЗАД</p></Link>
             </div>
         </div>
     </>

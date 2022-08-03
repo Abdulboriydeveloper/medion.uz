@@ -1,0 +1,305 @@
+.frame15Page{
+  width: 100%;
+  height: 100vh;
+  background-image: url('../../assets/images/cardBg.jpg');
+  background-size: cover; 
+  background-repeat: repeat; 
+}
+.logomedionFrame15{
+  width: 200.94px;
+  height: 141.02px;
+  background-image: url('../../assets/images/лого-Medion1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.textLogoFrame15{
+  width: 246.59px;
+  height: 65.22px;
+  background-image: url('../../assets/images/лого-Medion2.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.frame15NameTitle{
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  color: #BF2619;
+  margin-top: 0%;
+  margin-bottom: 5px;
+}
+.flex-containerFrame15{
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  height: 60px;
+  text-align: center;
+  margin-top: 1%;
+  margin-left: 15%;
+  z-index: 1;
+  background: #FFFFFF;
+  border: 1px solid #E9E9E9;
+  border-radius: 5px;
+}
+.flex-containerFrame152 {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+  z-index: 1;
+}
+.flex-item-leftFrame15 {
+  padding: 10px;  
+  flex: 39%;
+  padding-left: 4%;
+}
+.flex-item-rightFrame15{
+  padding-left: 0% !important;
+}
+.flexItemBtn15{
+  margin-top: -6.5%;
+}
+.frame15Text{
+  width: 100%;
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: left;
+  margin-left: 5%;
+  color: #000000;
+}
+.frame15Number{
+  width: 100%;
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  color: #000000;
+  margin-top: -5%;
+}
+.frame15Btn1{
+  width: 145px;
+  height: 35px;
+  background: #BF2619;
+  border-radius: 25px;
+  font-family: 'HelveticaNeueCyr';
+  border-style: none;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 15px;
+  line-height: 6px;
+  color: #FFFFFF;
+}
+
+.iconsRow{
+  margin-top: 4%;
+}
+.iconsFrame15{
+  margin-top: 2.29%;
+}
+.firstIconGroupFrame15{
+  margin-left: -10% !important;
+}
+.secondIconGroupFrame15{
+  margin-left: 20% !important;
+  margin-top: -0.5%;
+}
+.homeIconFrame15{
+  width: 61px;
+  height: 61px;
+  background-color: #1F2C50;
+  margin-right: 89px;
+  border-radius: 50%;
+}
+.iconHomeFrame15{
+  color: #FFFFFF;
+  width: 58px;
+  height: 58px;
+  margin-left: -45%;
+  margin-top: -25%;
+}
+.nazadIconFrame15{
+  width: 64px;
+  height: 64px;
+  background-color: #1F2C50;
+  margin-left: 1%;
+  border-radius: 50%;
+  margin-top: -3px;
+}
+.nazadIconLeftFrame15{
+  width: 64px;
+  height: 64px;
+  background: #D8D8D8;
+  margin-right: 89px;
+  border-radius: 50%;
+}
+.nazadIconRightFrame15{
+  width: 64px;
+  height: 64px;
+  background-color: #BF2619;
+  margin-left: 1%;
+  border-radius: 50%;
+  margin-top: -3px;
+}
+.iconNazadFrame15{
+  color: #FFFFFF;
+  width: 240%;
+  height: 169%;
+  margin-left: -75%;
+  margin-top: -45%;
+}
+.domoyTextFrame15{
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 38px;
+  color: #1F2C50;
+  margin-left: -40%;
+}
+.nazadTextFrame15{
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 550;
+  font-size: 17px;
+  line-height: 22px;
+  color: #1F2C50;
+  margin-left: -30%;
+}
+
+@media only screen and (max-width: 820px) {
+  .logomedionFrame15{
+    margin-top: 5%;
+    width: 233.94px;
+    height: 170.02px;
+  }
+  .textLogoFrame15{
+    width: 310.59px;
+    height: 86.22px;
+  }
+  .flex-containerFrame15 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 115%;
+    height: 60px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: -7%;
+    z-index: 1;
+    background: #FFFFFF;
+    border: 1px solid #E9E9E9;
+    border-radius: 5px;
+  }
+  .frame15Text{
+    width: 120%;
+  }
+  .iconsFrame15{
+    margin-top: 13%;
+  }
+  .firstIconGroupFrame15{
+    margin-left: -7% !important;
+  }
+  .secondIconGroupFrame15{
+    margin-left: 40% !important;
+    margin-top: 3%;
+  }
+  .iconsRow {
+    margin-top: 20% !important;
+  }
+  .homeIconFrame15{
+    width: 90px;
+    height: 90px;
+  }
+  .domoyTextFrame15 {
+    font-size: 35px;
+    line-height: 65px;
+  }
+  .iconHomeFrame15 {
+    width: 90px;
+    height: 80px;
+    margin-left: -15%;
+    margin-top: -8%;
+  }
+  .nazadIconFrame15{
+    width: 90px;
+    height: 90px;
+    margin-top: -5px;
+  }
+  .nazadIconLeftFrame15 {
+    width: 90px;
+    height: 90px;
+  }
+  .nazadIconRightFrame15 {
+    width: 90px;
+    height: 90px;
+  }
+  .iconNazadFrame15{
+    width: 250%;
+    height: 180%;
+  }
+  .nazadTextFrame15{
+    font-size: 35px;
+    line-height: 0px;
+  }
+  .col2Frame15{
+    width: 348px !important;
+    justify-items: center;
+  }
+}
+@media all and (display-mode: fullscreen){
+  .frame15Page{
+    height: 100vh !important;
+  }
+}
+
+@media only screen and (min-width: 700px) and (min-height: 1200px) {
+  .flex-item-left {
+    padding: 10px;
+    flex: 40% 1;
+  }
+  .frame15Btn1 {
+    font-size: 15px;
+    line-height: 35px;
+  }
+  .flexItemBtn15 {
+    margin-top: -8.5%;
+  }
+  .homeIconFrame15{
+    width: 75px;
+    height: 75px;
+  }
+  .iconHomeFrame15 {
+    width: 60px;
+    height: 60px;
+    margin-left: -19%;
+    margin-top: -6%;
+  }
+  .nazadIconFrame15 {
+    width: 75px;
+    height: 75px;
+    margin-top: -2px;
+  }
+  .domoyTextFrame15{
+    font-size: 26px;
+    line-height: 70px;
+  }
+  .nazadTextFrame15 {
+    font-size: 26px;
+    line-height: 15px;
+  }
+  .secondIconGroupFrame15 {
+    margin-left: 44% !important;
+    margin-top: -1% !important;
+  }
+  .nazadIconLeftFrame15{
+    width: 75px;
+    height: 75px;
+  }
+  .nazadIconRightFrame15{
+    width: 75px;
+    height: 75px;
+  }
+}

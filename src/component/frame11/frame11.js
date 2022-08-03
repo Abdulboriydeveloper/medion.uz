@@ -6,12 +6,13 @@ import {Link} from 'react-router-dom';
 import Calculator from '../calc/Calculator';
 import {AiFillHome} from 'react-icons/ai';
 import {FaRegArrowAltCircleRight} from 'react-icons/fa';
-import nfcCard from '../../assets/images/nfc.svg';
+import nfcCard from '../../assets/images/nfc.png';
 
 const Frame11 = () => {
   useEffect(()=>{
     AOS.init({})
   })
+  
   return (
       <div>
         <div className='frame11Page'>
@@ -24,10 +25,10 @@ const Frame11 = () => {
             <div className="container">
             <div className="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
               <div className="col-2 col2Frame11">
-                <p className='justify-content-end frame11Text'>Введите ID пользователя:</p>
+                <p className='justify-content-end frame11Text frame11Text1'>Введите ID пользователя:</p>
               </div>
               <div className="col-2 col2Frame11">
-                <p className='justify-content-start frame11Text'>Приложите NFC карту:</p>
+                <p className='justify-content-start frame11Text frame11Text2'>Приложите NFC карту:</p>
               </div>
             </div>
               <div className="row" data-aos="zoom-in" data-aos-delay="200">
@@ -44,8 +45,8 @@ const Frame11 = () => {
               <div className="row justify-content-center iconsRow">
                 <div className="col-2 firstIconGroupFrame11">
                   <div className="d-flex justify-content-center iconsFrame11" data-aos="zoom-in" data-aos-delay="200">
-                    <Link className="nav-title-link nav-link nav-link-navbar active active-nav homeIconFrame11" aria-current="page" to="/"><AiFillHome className='iconHome'/> <p className='domoyText'>ДОМОЙ</p></Link>
-                    <Link className="nav-title-link nav-link nav-link-navbar active active-nav nazadIconFrame11" aria-current="page" to="/frame9"><FaRegArrowAltCircleRight className='iconNazad'/>  <p className='nazadText'>НАЗАД</p></Link>
+                    <Link className="nav-title-link nav-link nav-link-navbar active active-nav homeIconFrame11" aria-current="page" to="/"><AiFillHome className='iconHomeFrame11'/> <p className='domoyTextFrame11'>ДОМОЙ</p></Link>
+                    <Link className="nav-title-link nav-link nav-link-navbar active active-nav nazadIconFrame11" aria-current="page" to="/frame18"><FaRegArrowAltCircleRight className='iconNazadFrame11'/>  <p className='nazadTextFrame11'>НАЗАД</p></Link>
                   </div>
                 </div>
               </div>

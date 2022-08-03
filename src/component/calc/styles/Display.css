@@ -4,9 +4,9 @@
   width: 410px;
   height: 60px;
   background: #FFFFFF;
-  border: 1px solid #E9E9E9;
+  border: 2px solid #E9E9E9;
   border-radius: 10px;
-  margin-bottom: 10%;
+  margin-bottom: 8%;
 }
 
 .expression {
@@ -17,16 +17,16 @@
 
 .input,
 .value {
-  padding: 10px !important;
-  text-align: right;
-  background-color: transparent;
-  color: #BF2619;
-  border: 0px;
-  letter-spacing: 1.5px;
+    padding: 4px !important;
+    text-align: right;
+    background-color: transparent;
+    color: #BF2619;
+    border: 0px;
+    letter-spacing: 3.5px;
 }
 
 .input {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .value {
